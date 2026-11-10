@@ -14,6 +14,6 @@ the following apps/scripts were installed
 python
 python-pip
 EOF
-
+cd ..
 cd ..
 clear
