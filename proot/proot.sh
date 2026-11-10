@@ -3,17 +3,11 @@ clear
 echo "proot installer"
 echo "starting install..."
 sleep 1.5
-echo "updating..."
-pkg update && pkg upgrade -y
-clear
 echo "installing proot..."
 pkg install proot -y
 clear
 echo "installing distro manager..."
 pkg install proot-distro -y
-clear
-echo "installing git..."
-pkg install git -y
 clear
 echo "connecting..."
 mkdir proot_installed_by_reos_installer
