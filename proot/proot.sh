@@ -33,6 +33,8 @@ pkg install python-pip -y
 pkg install ca-certificates -y
 pkg install openssl -y
 clear
+cd ..
+cd ..
 echo "__________Proot Setup__________"
 read -p "enter the name of your linux distro: " distro
 echo "setting up..."
