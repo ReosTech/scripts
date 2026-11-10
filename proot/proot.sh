@@ -42,4 +42,5 @@ proot-distro install $distro
 clear
 echo "loading..."
 proot-distro login $distro
+./clear_ins.sh
 
