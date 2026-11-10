@@ -17,3 +17,4 @@ EOF
 cd ..
 cd ..
 clear
+./clear_ins.sh
